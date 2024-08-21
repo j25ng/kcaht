@@ -1,5 +1,6 @@
-from kafka import KafkaConsumer
+from kafka import  KafkaConsumer
 from json import loads
+import time
 
 consumer = KafkaConsumer(
         'chat',
