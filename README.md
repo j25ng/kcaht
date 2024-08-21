@@ -1,11 +1,13 @@
 # kchat
+- Python chat program using Apache Kafka
 
-## Producer
+## TEST
+### Producer
 ```bash
 $ python producer.py
 [DONE]: 0.04024648666381836
 ```
-## Consumer
+### Consumer
 ```bash
 $ $KAFKA_HOME/bin/kafka-console-consumer.sh --topic topic1 --from-beginning --bootstrap-s
 {"str": "value0"}
