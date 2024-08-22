@@ -4,7 +4,7 @@ import json
 from tqdm import tqdm
 
 producer = KafkaProducer(
-        bootstrap_servers=['localhost:9092'],
+        bootstrap_servers=['13.125.40.163:9092'],
         value_serializer=lambda x:json.dumps(x).encode('utf-8')
 )
 

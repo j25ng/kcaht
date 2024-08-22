@@ -3,7 +3,7 @@ import json
 import time
 
 p = KafkaProducer(
-        bootstrap_servers=['localhost:9092'],
+        bootstrap_servers=['ec2-13-125-40-163.ap-northeast-2.compute.amazonaws.com:9092'],
         value_serializer=lambda x:json.dumps(x).encode('utf-8')
 )
 
